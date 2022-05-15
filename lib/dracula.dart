@@ -15,7 +15,6 @@ class Dracula extends CustomPainter {
     //face
     final face = Path();
     face.moveTo(size.width * 0.3, size.height * 0.2);
-    // dracool.lineTo(size.width * 0.8, 200);
     face.arcToPoint(Offset(size.width * 0.8, size.height * 0.2),
         radius: const Radius.circular(50));
     face.lineTo(size.width * 0.8, size.height * 0.7);
